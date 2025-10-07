@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Car | ZoomCar Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">Zoom<span>Car</span></div>
+  </nav>
+
+  <section class="main">
+    <h2 class="title">Select Your Car</h2>
+
+    <div class="car-grid">
+      <div class="car-card" onclick="selectCar('Economy', 2500)">
+        <img src="https://cdn-icons-png.flaticon.com/512/743/743131.png" alt="Economy">
+        <h3>Economy</h3>
+        <p>Affordable & fuel-efficient</p>
+        <span>₹2500/day</span>
+      </div>
+
+      <div class="car-card" onclick="selectCar('Prime', 4000)">
+        <img src="https://cdn-icons-png.flaticon.com/512/743/743007.png" alt="Prime">
+        <h3>Prime</h3>
+        <p>Comfort & performance</p>
+        <span>₹4000/day</span>
+      </div>
+
+      <div class="car-card" onclick="selectCar('Luxury', 6500)">
+        <img src="https://cdn-icons-png.flaticon.com/512/743/743078.png" alt="Luxury">
+        <h3>Luxury</h3>
+        <p>Premium driving experience</p>
+        <span>₹6500/day</span>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

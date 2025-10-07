@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZoomCar Clone | Rent Smarter</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Hello
-</body>
-</html>
+  <!-- Navbar -->
+  <nav>
+    <a href=index.html"><div class="logo"><img src="Gemini.png" alt="Logo"></div></a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Locations</a></li>
+      <li><a href="login.html" class="btn-login">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Rent Your Dream Car Today</h1>
+      <p>Affordable, fast, and easy. Choose from Economy, Prime, or Luxury — drive anywhere you want.</p>
+      <button onclick="goToLogin()">Book Now</button>
+    </div>
+  </section>
+
+  <!-- Car Showcase -->
+  <section class="showcase">
+    <h2>Our Fleet</h2>
+    <div class="car-grid">
+      <div class="car-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/743/743131.png" alt="Economy">
+        <h3>Economy</h3>
+        <p>Fuel-efficient and budget-friendly for daily drives.</p>
+      </div>
+      <div class="car-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/743/743007.png" alt="Prime">
+        <h3>Prime</h3>
+        <p>Comfortable and stylish for long trips and family rides.</p>
+      </div>
+      <div class="car-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/743/743078.png" alt="Luxury">
+        <h3>Luxury</h3>
+        <p>Premium experience for those who love class and performance.</p>
+      </div>
+    </div>
+    <button class="book-btn" onclick="goToLogin()">Book Your Car</button>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <p>"ZoomCar made my road trip amazing! The car was clean and smooth to drive."</p>
+        <span>- Aditi Sharma</span>
+      </div>
+      <div class="testimonial">
+        <p>"Affordable rates and no hidden charges. Loved the seamless booking process!"</p>
+        <span>- Rohit Verma</span>
+      </div>

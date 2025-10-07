@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background: #00a550;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo{
+    height: auto;
+    width: auto;
+}
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover, .nav-links li a.active {
+  color: #fff200;
+}
+
+.btn-login {
+  background: rgb(173, 15, 15);
+  color: #00a550;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.btn-login:hover {
+  background: #fff200;
+  color: #007a3d;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 140px 20px;
+}
+
+.hero-content {
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  padding: 40px 60px;
+  border-radius: 15px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero button {
+  background: #fff200;
+  border: none;
+  color: #007a3d;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hero button:hover {
+  background: white;
+}
+
+/* Showcase */
+.showcase {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.car-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+}
+
+.car-card img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.book-btn {
+  background: #00a550;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  margin-top: 40px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.book-btn:hover {
+  background: #007a3d;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #f0fdf4;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.testimonial {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  font-style: italic;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #00a550;
+}
+
+/* Footer */
+footer {
+  background: #00a550;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+/* Forms (for login, DL, payment pages) */
+.form-box {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 320px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.form-box input, .form-box button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form-box button {
+  background: #00a550;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background: #00833e;
+}
+.main.center {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.preview {
+  max-width: 100%;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
